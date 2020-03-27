@@ -8,7 +8,8 @@ The included Windows keyboard layout for United States (International) is subpar
 * The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` but be followed by a space
 
 There was a very noble attempt to fix this madness by fellow GitHub user [thomasfaingnaert](https://github.com/thomasfaingnaert/win-us-intl-altgr). However, it only addresses the last problem, does not contain a copyleft-friendly license, and does not map a large number of precomposed letters with diacritics in Unicode.
-But upon looking at the way US-International tends to be done, I realized some of its inefficiencies and nonsensical mappings...
+
+But upon looking at the way US-International tends to be done, I realized some of its inefficiencies and nonsensical mappings. Therefore, I decided to reform the entire layout...
 ## The Standard
 This is the way that US-International is usually done in Linux and such, and will be compared against below:
 ![US-International](https://wildcard.yiff.church/i/h4q7dr4m.png)
@@ -25,7 +26,7 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
 * Macron at `AltGr`+`Shift`+`3` replaces underdot at `AltGr`+`Shift`+`-`.
   * The `-` looks very similar to the macron, hence why it is only natural to put it as a modifier on the same key.
 * Underdot at `AltGr`+`Shift`+`-` replaces overdot at `AltGr`+`.`.
-  * The `.` is very similar to the underdot, hence why it is only natural to put it as a modifier on the same key
+  * The `.` is very similar to the underdot, hence why it is only natural to put it as a modifier on the same key.
 * Overdot at `AltGr`+`.` replaces caron at `AltGr`+`Shift`+`.`.
   * Your shift key might have an arrow facing up on it. Think of the shift key as moving the underdot from below the letter in the direction that arrow points, up! Overdot!
 * Caron at `AltGr`+`Shift`+`.` is moved to `AltGr`+`Shift`+`5`.
