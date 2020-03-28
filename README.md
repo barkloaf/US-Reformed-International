@@ -1,5 +1,5 @@
 # United States (Reformed International)
-A sensible version of the US-International keyboard layout for Windows, including with AltGr dead keys
+A sensible version of the US-International keyboard layout for Windows, including with AltGr dead keys.
 ## The Problem
 The included Windows keyboard layout for United States (International) is subpar. Here is a list of things the Windows US-International layout does not have that are usually included in layouts such as the one included on Linux:
 * The `œ` ligature
@@ -14,7 +14,7 @@ But upon looking at the way US-International tends to be done, I realized some o
 This is the way that US-International is usually done in Linux and such, and will be compared against below:
 ![US-International](https://wildcard.yiff.church/i/im1h033s.png)
 ## The Reform
-![US-Reformed-International](https://wildcard.yiff.church/i/c32j7ae0.png)
+![US-Reformed-International](https://wildcard.yiff.church/i/mv5czf9d.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
@@ -38,7 +38,7 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
 * Dead keys are only activated by `AltGr`
   * This is what I was talking about earlier with AltGr dead keys. It's the only sensible way to have dead keys.
 * Combination diacritical marks are added to a given dead dead key combination +`Space`
-  * Most of the time, `Space` following a dead key combination prints the spacing character for the diacritical mark the dead key is used for. This is not very useful, because most dead keys such as `~` and `"` have their own non-dead key combination and can be typed anyway. It also locks out the possibility of putting the diacritics on leters that would otherwise not have a precomposed entry in Unicode. For example, n-diaeresis (`n̈`) is not a precomposed character in Unicode. With the Reformed layout, it can be typed with `n` followed by `AltGr`+`Shift`+`'` followed by `Space`. This is technically two characters, but it looks completely natural due to Unicode's combination diaeresis character. This feature can also be used to type letters with multiple diacritics. You can even get as crazy as `ņ̨̣̃́̈̄̌̂̆̊̇` if you so truly wish!
+  * Most of the time, `Space` following a dead key combination prints the spacing character for the diacritical mark the dead key is used for. This is not very useful, because most dead keys such as `~` and `'` have their own non-dead key combination and can be typed anyway. It also locks out the possibility of putting the diacritics on leters that would otherwise not have a precomposed entry in Unicode. For example, n-diaeresis (`n̈`) is not a precomposed character in Unicode. With the Reformed layout, it can be typed with `n` followed by `AltGr`+`Shift`+`'` followed by `Space`. This is technically two characters, but it looks completely natural due to Unicode's combination diaeresis character. This feature can also be used to type letters with multiple diacritics. You can even get as crazy as `ņ̨̣̃́̈̄̌̂̆̊̇` if you so truly wish!
   
 Hopefully, these changes make typing with various diacritics and non-English orthographies easier.
 ## Installation
