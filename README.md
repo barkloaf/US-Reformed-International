@@ -1,4 +1,4 @@
-# US-Reformed-International
+# United States (Reformed International)
 A sensible version of the US-International keyboard layout for Windows, including with AltGr dead keys
 ## The Problem
 The included Windows keyboard layout for United States (International) is subpar. Here is a list of things the Windows US-International layout does not have that are usually included in layouts such as the one included on Linux:
@@ -44,4 +44,4 @@ Hopefully, these changes make typing with various diacritics and non-English ort
 ## Installation
 Download the latest `us-refor.zip` on [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe`.
 
-Alternatively, you may download the source code file and open it in Microsoft Keyboard Layout Center. An installer is created by going to `Project`>`Build DLL and Setup Package`. The resulting folder should have an executable `Setup.exe`.
+Alternatively, you may download the source code file and open it in [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339). An installer is created by going to `Project`>`Build DLL and Setup Package`. Run `Setup.exe` from the resulting folder.
