@@ -4,7 +4,7 @@ A sensible version of the US-International keyboard layout for Windows, includin
 The included Windows keyboard layout for United States (International) is subpar. Here is a list of things the Windows US-International layout does not have that are usually included in layouts such as the one included on Linux:
 * The `œ` ligature
 * Left and right facing quotation marks `“` `”`
-* The breve, caron, double acute, ogonek, macron, overdot, underdot, and and overring diacritical marks
+* The breve, caron, double acute, ogonek, macron, overdot, underdot, and overring diacritical marks
 * The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` but be followed by a space
 
 There was a very noble attempt to fix this madness by fellow GitHub user [thomasfaingnaert](https://github.com/thomasfaingnaert/win-us-intl-altgr). However, it only addresses the last problem, does not contain a copyleft-friendly license, and does not map a large number of precomposed letters with diacritics in Unicode.
@@ -12,9 +12,9 @@ There was a very noble attempt to fix this madness by fellow GitHub user [thomas
 But upon looking at the way US-International tends to be done, I realized some of its inefficiencies and nonsensical mappings. Therefore, I decided to reform the entire layout...
 ## The Standard
 This is the way that US-International is usually done in Linux and such, and will be compared against below:
-![US-International](https://wildcard.yiff.church/i/h4q7dr4m.png)
+![US-International](https://wildcard.yiff.church/i/im1h033s.png)
 ## The Reform
-![US-Reformed-International](https://wildcard.yiff.church/i/cqvg5lpj.png)
+![US-Reformed-International](https://wildcard.yiff.church/i/c32j7ae0.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
@@ -42,6 +42,6 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
   
 Hopefully, these changes make typing with various diacritics and non-English orthographies easier.
 ## Installation
-Download the latest zip on [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe`.
+Download the latest `us-refor.zip` on [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe`.
 
 Alternatively, you may download the source code file and open it in Microsoft Keyboard Layout Center. An installer is created by going to `Project`>`Build DLL and Setup Package`. The resulting folder should have an executable `Setup.exe`.
