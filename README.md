@@ -5,7 +5,7 @@ The included Windows keyboard layout for United States (International) is subpar
 * The `œ` ligature
 * Left and right facing quotation marks `“` `”`
 * The breve, caron, double acute, ogonek, macron, overdot, underdot, and overring diacritical marks
-* The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` but be followed by a space
+* The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` must be followed by a space
 
 There was a very noble attempt to fix this madness by fellow GitHub user [thomasfaingnaert](https://github.com/thomasfaingnaert/win-us-intl-altgr). However, it only addresses the last problem, does not contain a copyleft-friendly license, and does not map a large number of precomposed letters with diacritics in Unicode.
 
@@ -37,7 +37,7 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
   * The keyboard already has a `/` key, and many languages and currency symbols across the world use letters with a solidus diacritic.
 * Dead keys are only activated by `AltGr`
   * This is what I was talking about earlier with AltGr dead keys. It's the only sensible way to have dead keys.
-* Combination diacritical marks are added to a given dead dead key combination +`Space`
+* Combination diacritical marks are added to a given dead dead key combination followed by `Space`
   * Most of the time, `Space` following a dead key combination prints the spacing character for the diacritical mark the dead key is used for. This is not very useful, because most dead keys such as `~` and `'` have their own non-dead key combination and can be typed anyway. It also locks out the possibility of putting the diacritics on leters that would otherwise not have a precomposed entry in Unicode. For example, n-diaeresis (`n̈`) is not a precomposed character in Unicode. With the Reformed layout, it can be typed with `n` followed by `AltGr`+`Shift`+`'` followed by `Space`. This is technically two characters, but it looks completely natural due to Unicode's combination diaeresis character. This feature can also be used to type letters with multiple diacritics. You can even get as crazy as `ņ̨̣̃́̈̄̌̂̆̊̇` if you so truly wish!
   
 Hopefully, these changes make typing with various diacritics and non-English orthographies easier.
