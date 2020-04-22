@@ -14,7 +14,7 @@ But upon looking at the way US-International tends to be done, I realized some o
 This is the way that US-International is usually done in Linux and such, and will be compared against below:
 ![US-International](https://wildcard.yiff.church/i/im1h033s.png)
 ## The Reform
-![US-Reformed-International](https://wildcard.yiff.church/i/mv5czf9d.png)
+![US-Reformed-International](https://wildcard.yiff.church/i/ojm2ddcf.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
@@ -35,6 +35,8 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
   * The Cedilla is used in some common languages such as French (~77 million speakers) and Portugese (~223 million speakers), which is nothing to sneeze at. It is somewhat similar looking to the ogonek (at `AltGr`+`Shift`+`8`), so it was put right next to it.
 * Solidus is added to `AltGr`+`Shift`+`/`.
   * The keyboard already has a `/` key, and many languages and currency symbols across the world use letters with a solidus diacritic.
+* `™` is replaces `®` at `AltGr`+`Shift`+`r`
+  * The `®` is already at `AltGr`+`r`. Replacing it fixes the fact that it is redundant. `™` was its successor because of the fact that we often say "Registered Trademark" in the Anglosphere, and for meme value.
 * Dead keys are only activated by `AltGr`
   * This is what I was talking about earlier with AltGr dead keys. It's the only sensible way to have dead keys.
 * Combination diacritical marks are added to a given dead dead key combination followed by `Space`
