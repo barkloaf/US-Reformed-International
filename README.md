@@ -35,7 +35,7 @@ This is my keyboard layout that aims to fix the problems with given US-Internati
   * The Cedilla is used in some common languages such as French (~77 million speakers) and Portugese (~223 million speakers), which is nothing to sneeze at. It is somewhat similar looking to the ogonek (at `AltGr`+`Shift`+`8`), so it was put right next to it.
 * Solidus is added to `AltGr`+`Shift`+`/`.
   * The keyboard already has a `/` key, and many languages and currency symbols across the world use letters with a solidus diacritic.
-* `™` is replaces `®` at `AltGr`+`Shift`+`r`
+* `™` replaces `®` at `AltGr`+`Shift`+`r`
   * The `®` is already at `AltGr`+`r`. Replacing it fixes the fact that it is redundant. `™` was its successor because of the fact that we often say "Registered Trademark" in the Anglosphere, and for meme value.
 * Dead keys are only activated by `AltGr`
   * This is what I was talking about earlier with AltGr dead keys. It's the only sensible way to have dead keys.
