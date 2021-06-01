@@ -1,0 +1,183 @@
+{
+  "fullName": "United States (Reformed International)",
+  "name": "us-refor",
+  "copyright": "(c) 2021 barkloaf",
+  "company": "barkloaf",
+  "localeId": "00000409",
+  "singletonKeys": [
+    [ "Alt_R", "AltGr" ],
+    [ "Iso", "Shift_L" ]
+  ],
+  "shiftlevels": [ "None", "Shift", "Control", "AltGr", "Shift+AltGr" ],
+  "keys": [
+    { "pos": "~", "letters": [ "`", "~", "", "cdk:grave", "cdk:tilde" ] },
+    { "pos": "1", "letters": [ "1", "!", "", "¡", "¹" ] },
+    { "pos": "2", "letters": [ "2", "@", "", "²", "cdk:doubleacute" ] },
+    { "pos": "3", "letters": [ "3", "#", "", "³" ] },
+    { "pos": "4", "letters": [ "4", "$", "", "£", "cdk:currency" ] },
+    { "pos": "5", "letters": [ "5", "%", "", "€", "cdk:caron" ] },
+    { "pos": "6", "letters": [ "6", "^", "", "¼", "cdk:circumflex" ] },
+    { "pos": "7", "letters": [ "7", "&", "", "½", "cdk:cedilla" ] },
+    { "pos": "8", "letters": [ "8", "*", "", "¾", "cdk:ogonek" ] },
+    { "pos": "9", "letters": [ "9", "(", "", "‘", "cdk:breve" ] },
+    { "pos": "0", "letters": [ "0", ")", "", "’", "cdk:overring" ] },
+    { "pos": "-", "letters": [ "-", "_", "", "¥", "cdk:macron" ] },
+    { "pos": "+", "letters": [ "=", "+", "", "×", "÷" ] },
+    { "pos": "Q", "letters": [ "q", "Q", "", "ä", "Ä" ] },
+    { "pos": "W", "letters": [ "w", "W", "", "å", "Å" ] },
+    { "pos": "E", "letters": [ "e", "E", "", "é", "É" ] },
+    { "pos": "R", "letters": [ "r", "R", "", "®", "™" ] },
+    { "pos": "T", "letters": [ "t", "T", "", "þ", "Þ" ] },
+    { "pos": "Y", "letters": [ "y", "Y", "", "ü", "Ü" ] },
+    { "pos": "U", "letters": [ "u", "U", "", "ú", "Ú" ] },
+    { "pos": "I", "letters": [ "i", "I", "", "í", "Í" ] },
+    { "pos": "O", "letters": [ "o", "O", "", "ó", "Ó" ] },
+    { "pos": "P", "letters": [ "p", "P", "", "ø", "Ø" ] },
+    { "pos": "[", "letters": [ "[", "{", "\u001b", "«", "“" ] },
+    { "pos": "]", "letters": [ "]", "}", "\u001d", "»", "”" ] },
+    { "pos": "\\", "letters": [ "\\", "|", "\u001c", "¬", "¦" ] },
+    { "pos": "A", "letters": [ "a", "A", "", "á", "Á" ] },
+    { "pos": "S", "letters": [ "s", "S", "", "ß", "§" ] },
+    { "pos": "D", "letters": [ "d", "D", "", "ð", "Ð" ] },
+    { "pos": "F", "letters": [ "f", "F" ] },
+    { "pos": "G", "letters": [ "g", "G" ] },
+    { "pos": "H", "letters": [ "h", "H" ] },
+    { "pos": "J", "letters": [ "j", "J" ] },
+    { "pos": "K", "letters": [ "k", "K", "", "œ", "Œ" ] },
+    { "pos": "L", "letters": [ "l", "L", "", "ł", "Ł" ] },
+    { "pos": ";", "letters": [ ";", ":", "", "¶", "°" ] },
+    { "pos": "'", "letters": [ "'", "\"", "", "cdk:acute", "cdk:diaeresis" ] },
+    { "pos": "Z", "letters": [ "z", "Z", "", "æ", "Æ" ] },
+    { "pos": "X", "letters": [ "x", "X" ] },
+    { "pos": "C", "letters": [ "c", "C", "", "©", "¢" ] },
+    { "pos": "V", "letters": [ "v", "V" ] },
+    { "pos": "B", "letters": [ "b", "B" ] },
+    { "pos": "N", "letters": [ "n", "N", "", "ñ", "Ñ" ] },
+    { "pos": "M", "letters": [ "m", "M", "", "µ" ] },
+    { "pos": ",", "letters": [ ",", "<", "", "ç", "Ç" ] },
+    { "pos": ".", "letters": [ ".", ">", "", "cdk:underdot", "cdk:overdot" ] },
+    { "pos": "/", "letters": [ "/", "?", "", "¿", "cdk:solidus" ] },
+    { "pos": "Space", "letters": [ " ", " ", " ", " ", "​" ] }
+  ],
+  "customDeadKeys": [
+    {
+      "name": "grave",
+      "baseChar": "grave",
+      "stringMap": [
+        [ " ", "̀" ]
+      ]
+    },
+    {
+      "name": "tilde",
+      "baseChar": "tilde",
+      "stringMap": [
+        [ "=", "≅" ],
+        [ " ", "̃" ]
+      ]
+    },
+    {
+      "name": "doubleacute",
+      "baseChar": "doubleacute",
+      "stringMap": [
+        [ " ", "̋" ]
+      ]
+    },
+    {
+      "name": "currency",
+      "baseChar": "currency",
+      "stringMap": [
+        [ " ", "¤" ]
+      ]
+    },
+    {
+      "name": "caron",
+      "baseChar": "caron",
+      "stringMap": [
+        [ " ", "̌" ]
+      ]
+    },
+    {
+      "name": "circumflex",
+      "baseChar": "circumflex",
+      "stringMap": [
+        [ " ", "̂" ]
+      ]
+    },
+    {
+      "name": "cedilla",
+      "baseChar": "cedilla",
+      "stringMap": [
+        [ " ", "̧" ]
+      ]
+    },
+    {
+      "name": "ogonek",
+      "baseChar": "ogonek",
+      "stringMap": [
+        [ " ", "̨" ]
+      ]
+    },
+    {
+      "name": "breve",
+      "baseChar": "breve",
+      "stringMap": [
+        [ " ", "̆" ]
+      ]
+    },
+    {
+      "name": "overring",
+      "baseChar": "abovering",
+      "stringMap": [
+        [ " ", "̊" ]
+      ]
+    },
+    {
+      "name": "macron",
+      "baseChar": "macron",
+      "stringMap": [
+        [ "<", "≤" ],
+        [ ">", "≥" ],
+        [ "+", "±" ],
+        [ " ", "̄" ]
+      ]
+    },
+    {
+      "name": "acute",
+      "baseChar": "acute",
+      "stringMap": [
+        [ " ", "́" ]
+      ]
+    },
+    {
+      "name": "diaeresis",
+      "baseChar": "diaeresis",
+      "stringMap": [
+        [ " ", "̈" ]
+      ]
+    },
+    {
+      "name": "underdot",
+      "baseChar": "belowdot",
+      "stringMap": [
+        [ " ", "̣" ]
+      ]
+    },
+    {
+      "name": "overdot",
+      "baseChar": "abovedot",
+      "stringMap": [
+        [ " ", "̇" ]
+      ]
+    },
+    {
+      "name": "solidus",
+      "baseChar": "stroke",
+      "stringMap": [
+        [ "=", "≠" ],
+        [ "?", "‽" ],
+        [ "¿", "⸘" ],
+        [ " ", "̷" ]
+      ]
+    }
+  ]
+}
