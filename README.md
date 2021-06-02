@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wildcard.yiff.church/i/qhly0d6v.png" />
+  <img src="https://wildcard.yiff.church/i/1lksz7b8.png" />
 </p>
 
 # <p align="center">United States (Reformed International)</p>
@@ -36,7 +36,7 @@ But upon looking at the way US-International tends to be done, I realized some o
 This is the way that US-International is usually done in Linux and such, and will be compared against below:
 ![US-International](https://wildcard.yiff.church/i/im1h033s.png)
 ## The Reform
-![US-Reformed-International](https://wildcard.yiff.church/i/qhly0d6v.png)
+![US-Reformed-International](https://wildcard.yiff.church/i/1lksz7b8.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
