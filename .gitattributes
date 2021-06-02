@@ -1,0 +1,8 @@
+us-refor.json linguist-language=JSON
+keylayout/usrefor.keylayout linguist-language=XML
+klc/us-refor.klc linguist-language=Text
+pkl/pkl.ini linguist-language=INI
+pkl/layouts/us-refor linguist-language=INI
+xkb/XCompose linguist-language=XCompose
+xkb/symbols/us-refor linguist-language=C
+xkb/types/us-refor linguist-language=C
