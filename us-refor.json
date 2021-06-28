@@ -64,7 +64,8 @@
       "name": "grave",
       "baseChar": "grave",
       "stringMap": [
-        [ " ", "̀" ]
+        [ " ", "̀" ],
+        [ " ", "`" ]
       ]
     },
     {
@@ -72,63 +73,74 @@
       "baseChar": "tilde",
       "stringMap": [
         [ "=", "≅" ],
-        [ " ", "̃" ]
+        [ "-", "≃" ],
+        [ "~", "≈" ],
+        [ " ", "̃" ],
+        [ " ", "˜" ]
       ]
     },
     {
       "name": "doubleacute",
       "baseChar": "doubleacute",
       "stringMap": [
-        [ " ", "̋" ]
+        [ " ", "̋" ],
+        [ " ", "˝" ]
       ]
     },
     {
       "name": "currency",
       "baseChar": "currency",
       "stringMap": [
-        [ " ", "¤" ]
+        [ " ", "¤" ],
+        [ " ", "¤" ]
       ]
     },
     {
       "name": "caron",
       "baseChar": "caron",
       "stringMap": [
-        [ " ", "̌" ]
+        [ " ", "̌" ],
+        [ " ", "ˇ" ]
       ]
     },
     {
       "name": "circumflex",
       "baseChar": "circumflex",
       "stringMap": [
-        [ " ", "̂" ]
+        [ " ", "̂" ],
+        [ " ", "^" ]
       ]
     },
     {
       "name": "cedilla",
       "baseChar": "cedilla",
       "stringMap": [
-        [ " ", "̧" ]
+        [ " ", "̧" ],
+        [ " ", "¸" ]
       ]
     },
     {
       "name": "ogonek",
       "baseChar": "ogonek",
       "stringMap": [
-        [ " ", "̨" ]
+        [ " ", "̨" ],
+        [ " ", "˛" ]
       ]
     },
     {
       "name": "breve",
       "baseChar": "breve",
       "stringMap": [
-        [ " ", "̆" ]
+        [ " ", "̆" ],
+        [ " ", "˘" ]
       ]
     },
     {
       "name": "overring",
       "baseChar": "abovering",
       "stringMap": [
-        [ " ", "̊" ]
+        [ " ", "̊" ],
+        [ " ", "˚" ]
       ]
     },
     {
@@ -138,35 +150,42 @@
         [ "<", "≤" ],
         [ ">", "≥" ],
         [ "+", "±" ],
-        [ " ", "̄" ]
+        [ " ", "̄" ],
+        [ " ", "¯" ]
       ]
     },
     {
       "name": "acute",
       "baseChar": "acute",
       "stringMap": [
-        [ " ", "́" ]
+        [ " ", "́" ],
+        [ " ", "´" ]
       ]
     },
     {
       "name": "diaeresis",
       "baseChar": "diaeresis",
       "stringMap": [
-        [ " ", "̈" ]
+        [ " ", "̈" ],
+        [ " ", "¨" ]
       ]
     },
     {
       "name": "underdot",
       "baseChar": "belowdot",
       "stringMap": [
-        [ " ", "̣" ]
+        [ " ", "̣" ],
+        [ " ", "." ]
       ]
     },
     {
       "name": "overdot",
       "baseChar": "abovedot",
       "stringMap": [
-        [ " ", "̇" ]
+        [ "L", "Ŀ" ],
+        [ "l", "ŀ" ],
+        [ " ", "̇" ],
+        [ " ", "˙" ]
       ]
     },
     {
@@ -174,9 +193,14 @@
       "baseChar": "stroke",
       "stringMap": [
         [ "=", "≠" ],
+        [ "≃", "≄" ],
+        [ "≈", "≉" ],
         [ "?", "‽" ],
         [ "¿", "⸘" ],
-        [ " ", "̷" ]
+        [ "Þ", "Ꝥ" ],
+        [ "þ", "ꝥ" ],
+        [ " ", "̷" ],
+        [ " ", "/" ]
       ]
     }
   ]

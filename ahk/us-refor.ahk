@@ -177,6 +177,7 @@ SC029::Send {Blind}{U+0060} ; `
 if (DeadKeys.item("grave") == "") {
   DeadKeys.item("grave") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("grave").item(" ") := "̀"
+  DeadKeys.item("grave").item(" ") := "``"
   DeadKeys.item("grave").item("A") := "À"
   DeadKeys.item("grave").item("a") := "à"
   DeadKeys.item("grave").item("E") := "È"
@@ -201,7 +202,10 @@ Return
 if (DeadKeys.item("tilde") == "") {
   DeadKeys.item("tilde") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("tilde").item("=") := "≅"
+  DeadKeys.item("tilde").item("-") := "≃"
+  DeadKeys.item("tilde").item("~") := "≈"
   DeadKeys.item("tilde").item(" ") := "̃"
+  DeadKeys.item("tilde").item(" ") := "˜"
   DeadKeys.item("tilde").item("A") := "Ã"
   DeadKeys.item("tilde").item("a") := "ã"
   DeadKeys.item("tilde").item("E") := "Ẽ"
@@ -241,6 +245,7 @@ SC003::Send {Blind}{U+0032} ; 2
 if (DeadKeys.item("doubleacute") == "") {
   DeadKeys.item("doubleacute") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("doubleacute").item(" ") := "̋"
+  DeadKeys.item("doubleacute").item(" ") := "˝"
   DeadKeys.item("doubleacute").item("O") := "Ő"
   DeadKeys.item("doubleacute").item("o") := "ő"
   DeadKeys.item("doubleacute").item("U") := "Ű"
@@ -267,6 +272,7 @@ SC005::Send {Blind}{U+0034} ; 4
 if (DeadKeys.item("currency") == "") {
   DeadKeys.item("currency") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("currency").item(" ") := "¤"
+  DeadKeys.item("currency").item(" ") := "¤"
   DeadKeys.item("currency").item("A") := "₳"
   DeadKeys.item("currency").item("a") := "؋"
   DeadKeys.item("currency").item("B") := "₱"
@@ -328,6 +334,7 @@ SC006::Send {Blind}{U+0035} ; 5
 if (DeadKeys.item("caron") == "") {
   DeadKeys.item("caron") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("caron").item(" ") := "̌"
+  DeadKeys.item("caron").item(" ") := "ˇ"
   DeadKeys.item("caron").item("A") := "Ǎ"
   DeadKeys.item("caron").item("a") := "ǎ"
   DeadKeys.item("caron").item("C") := "Č"
@@ -378,6 +385,7 @@ SC007::Send {Blind}{U+0036} ; 6
 if (DeadKeys.item("circumflex") == "") {
   DeadKeys.item("circumflex") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("circumflex").item(" ") := "̂"
+  DeadKeys.item("circumflex").item(" ") := "^"
   DeadKeys.item("circumflex").item("A") := "Â"
   DeadKeys.item("circumflex").item("a") := "â"
   DeadKeys.item("circumflex").item("C") := "Ĉ"
@@ -419,6 +427,7 @@ SC008::Send {Blind}{U+0037} ; 7
 if (DeadKeys.item("cedilla") == "") {
   DeadKeys.item("cedilla") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("cedilla").item(" ") := "̧"
+  DeadKeys.item("cedilla").item(" ") := "¸"
   DeadKeys.item("cedilla").item("C") := "Ç"
   DeadKeys.item("cedilla").item("c") := "ç"
   DeadKeys.item("cedilla").item("D") := "Ḑ"
@@ -456,6 +465,7 @@ SC009::Send {Blind}{U+0038} ; 8
 if (DeadKeys.item("ogonek") == "") {
   DeadKeys.item("ogonek") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("ogonek").item(" ") := "̨"
+  DeadKeys.item("ogonek").item(" ") := "˛"
   DeadKeys.item("ogonek").item("A") := "Ą"
   DeadKeys.item("ogonek").item("a") := "ą"
   DeadKeys.item("ogonek").item("E") := "Ę"
@@ -481,6 +491,7 @@ SC00a::Send {Blind}{U+0039} ; 9
 if (DeadKeys.item("breve") == "") {
   DeadKeys.item("breve") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("breve").item(" ") := "̆"
+  DeadKeys.item("breve").item(" ") := "˘"
   DeadKeys.item("breve").item("A") := "Ă"
   DeadKeys.item("breve").item("a") := "ă"
   DeadKeys.item("breve").item("E") := "Ĕ"
@@ -508,6 +519,7 @@ SC00b::Send {Blind}{U+0030} ; 0
 if (DeadKeys.item("overring") == "") {
   DeadKeys.item("overring") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("overring").item(" ") := "̊"
+  DeadKeys.item("overring").item(" ") := "˚"
   DeadKeys.item("overring").item("A") := "Å"
   DeadKeys.item("overring").item("a") := "å"
   DeadKeys.item("overring").item("U") := "Ů"
@@ -532,6 +544,7 @@ if (DeadKeys.item("macron") == "") {
   DeadKeys.item("macron").item(">") := "≥"
   DeadKeys.item("macron").item("+") := "±"
   DeadKeys.item("macron").item(" ") := "̄"
+  DeadKeys.item("macron").item(" ") := "¯"
   DeadKeys.item("macron").item("A") := "Ā"
   DeadKeys.item("macron").item("a") := "ā"
   DeadKeys.item("macron").item("E") := "Ē"
@@ -1150,6 +1163,7 @@ SC028::Send {Blind}{U+0027} ; '
 if (DeadKeys.item("acute") == "") {
   DeadKeys.item("acute") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("acute").item(" ") := "́"
+  DeadKeys.item("acute").item(" ") := "´"
   DeadKeys.item("acute").item("A") := "Á"
   DeadKeys.item("acute").item("a") := "á"
   DeadKeys.item("acute").item("Æ") := "Ǽ"
@@ -1196,6 +1210,7 @@ Return
 if (DeadKeys.item("diaeresis") == "") {
   DeadKeys.item("diaeresis") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("diaeresis").item(" ") := "̈"
+  DeadKeys.item("diaeresis").item(" ") := "¨"
   DeadKeys.item("diaeresis").item("A") := "Ä"
   DeadKeys.item("diaeresis").item("a") := "ä"
   DeadKeys.item("diaeresis").item("E") := "Ë"
@@ -1403,6 +1418,7 @@ SC034::Send {Blind}{U+002e} ; .
 if (DeadKeys.item("underdot") == "") {
   DeadKeys.item("underdot") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("underdot").item(" ") := "̣"
+  DeadKeys.item("underdot").item(" ") := "."
   DeadKeys.item("underdot").item("A") := "Ạ"
   DeadKeys.item("underdot").item("a") := "ạ"
   DeadKeys.item("underdot").item("B") := "Ḅ"
@@ -1448,7 +1464,10 @@ Return
 ; overdot
 if (DeadKeys.item("overdot") == "") {
   DeadKeys.item("overdot") := ComObjCreate("Scripting.Dictionary")
+  DeadKeys.item("overdot").item("L") := "Ŀ"
+  DeadKeys.item("overdot").item("l") := "ŀ"
   DeadKeys.item("overdot").item(" ") := "̇"
+  DeadKeys.item("overdot").item(" ") := "˙"
   DeadKeys.item("overdot").item("A") := "Ȧ"
   DeadKeys.item("overdot").item("a") := "ȧ"
   DeadKeys.item("overdot").item("B") := "Ḃ"
@@ -1504,9 +1523,14 @@ SC035::Send {Blind}{U+002f} ; /
 if (DeadKeys.item("solidus") == "") {
   DeadKeys.item("solidus") := ComObjCreate("Scripting.Dictionary")
   DeadKeys.item("solidus").item("=") := "≠"
+  DeadKeys.item("solidus").item("≃") := "≄"
+  DeadKeys.item("solidus").item("≈") := "≉"
   DeadKeys.item("solidus").item("?") := "‽"
   DeadKeys.item("solidus").item("¿") := "⸘"
+  DeadKeys.item("solidus").item("Þ") := "Ꝥ"
+  DeadKeys.item("solidus").item("þ") := "ꝥ"
   DeadKeys.item("solidus").item(" ") := "̷"
+  DeadKeys.item("solidus").item(" ") := "/"
   DeadKeys.item("solidus").item("O") := "Ø"
   DeadKeys.item("solidus").item("o") := "ø"
   DeadKeys.item("solidus").item("D") := "Đ"
