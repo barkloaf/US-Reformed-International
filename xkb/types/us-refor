@@ -5,124 +5,38 @@ default xkb_types "basic" {
 
     virtual_modifiers LevelThree;
 
-    type "NONE_SHIFT_CONTROL_ALTGR_SHIFT+ALTGR" {
-        modifiers = LevelThree+Control+Shift;
+    type "NONE_SHIFT_ALTGR" {
+        modifiers = LevelThree+Shift;
         
         map[None] = Level1;
         map[Shift] = Level2;
-        map[Control] = Level3;
-        map[Control+Shift] = Level3;
-        map[LevelThree] = Level4;
-        map[LevelThree+Shift] = Level5;
-        map[LevelThree+Control] = Level4;
-        map[LevelThree+Control+Shift] = Level4;
+        map[LevelThree] = Level3;
+        map[LevelThree+Shift] = Level3;
         
-        preserve[Control] = Control;
-        preserve[Control+Shift] = Control+Shift;
-        preserve[LevelThree+Control] = Control;
-        preserve[LevelThree+Control+Shift] = Control+Shift;
-        
-        level_name[Level1] = "Base";
-        level_name[Level2] = "Shift";
-        level_name[Level3] = "Control";
-        level_name[Level4] = "AltGr";
-        level_name[Level5] = "ShiftAltGr";
-    };
-    
-    type "NONE_SHIFT_CONTROL_ALTGR" {
-        modifiers = LevelThree+Control+Shift;
-        
-        map[None] = Level1;
-        map[Shift] = Level2;
-        map[Control] = Level3;
-        map[Control+Shift] = Level3;
-        map[LevelThree] = Level4;
-        map[LevelThree+Shift] = Level4;
-        map[LevelThree+Control] = Level4;
-        map[LevelThree+Control+Shift] = Level4;
-        
-        preserve[Control] = Control;
-        preserve[Control+Shift] = Control+Shift;
         preserve[LevelThree+Shift] = Shift;
-        preserve[LevelThree+Control] = Control;
-        preserve[LevelThree+Control+Shift] = Control+Shift;
         
         level_name[Level1] = "Base";
         level_name[Level2] = "Shift";
-        level_name[Level3] = "Control";
-        level_name[Level4] = "AltGr";
+        level_name[Level3] = "AltGr";
     };
     
-    type "NONE_SHIFT_CONTROL_ALTGR_SHIFT+ALTGR_ALPHABETIC" {
-        modifiers = LevelThree+Control+Shift+Lock;
+    type "NONE_SHIFT_ALTGR_ALPHABETIC" {
+        modifiers = LevelThree+Shift+Lock;
         
         map[None] = Level1;
         map[Lock] = Level2;
         map[Shift] = Level2;
         map[Shift+Lock] = Level1;
-        map[Control] = Level3;
-        map[Control+Lock] = Level3;
-        map[Control+Shift] = Level3;
-        map[Control+Shift+Lock] = Level3;
-        map[LevelThree] = Level4;
-        map[LevelThree+Lock] = Level5;
-        map[LevelThree+Shift] = Level5;
-        map[LevelThree+Shift+Lock] = Level4;
-        map[LevelThree+Control] = Level4;
-        map[LevelThree+Control+Lock] = Level4;
-        map[LevelThree+Control+Shift] = Level4;
-        map[LevelThree+Control+Shift+Lock] = Level4;
+        map[LevelThree] = Level3;
+        map[LevelThree+Lock] = Level3;
+        map[LevelThree+Shift] = Level3;
+        map[LevelThree+Shift+Lock] = Level3;
         
-        preserve[Control] = Control;
-        preserve[Control+Lock] = Control;
-        preserve[Control+Shift] = Control+Shift;
-        preserve[Control+Shift+Lock] = Control;
-        preserve[LevelThree+Control] = Control;
-        preserve[LevelThree+Control+Lock] = Control;
-        preserve[LevelThree+Control+Shift] = Control+Shift;
-        preserve[LevelThree+Control+Shift+Lock] = Control;
-        
-        level_name[Level1] = "Base";
-        level_name[Level2] = "Shift";
-        level_name[Level3] = "Control";
-        level_name[Level4] = "AltGr";
-        level_name[Level5] = "ShiftAltGr";
-    };
-    
-    type "NONE_SHIFT_CONTROL_ALTGR_ALPHABETIC" {
-        modifiers = LevelThree+Control+Shift+Lock;
-        
-        map[None] = Level1;
-        map[Lock] = Level2;
-        map[Shift] = Level2;
-        map[Shift+Lock] = Level1;
-        map[Control] = Level3;
-        map[Control+Lock] = Level3;
-        map[Control+Shift] = Level3;
-        map[Control+Shift+Lock] = Level3;
-        map[LevelThree] = Level4;
-        map[LevelThree+Lock] = Level4;
-        map[LevelThree+Shift] = Level4;
-        map[LevelThree+Shift+Lock] = Level4;
-        map[LevelThree+Control] = Level4;
-        map[LevelThree+Control+Lock] = Level4;
-        map[LevelThree+Control+Shift] = Level4;
-        map[LevelThree+Control+Shift+Lock] = Level4;
-        
-        preserve[Control] = Control;
-        preserve[Control+Lock] = Control;
-        preserve[Control+Shift] = Control+Shift;
-        preserve[Control+Shift+Lock] = Control;
         preserve[LevelThree+Shift] = Shift;
-        preserve[LevelThree+Control] = Control;
-        preserve[LevelThree+Control+Lock] = Control;
-        preserve[LevelThree+Control+Shift] = Control+Shift;
-        preserve[LevelThree+Control+Shift+Lock] = Control;
         
         level_name[Level1] = "Base";
         level_name[Level2] = "Shift";
-        level_name[Level3] = "Control";
-        level_name[Level4] = "AltGr";
+        level_name[Level3] = "AltGr";
     };
     
 };

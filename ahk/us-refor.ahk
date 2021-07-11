@@ -171,7 +171,6 @@ SC056::LShift ; QWERTY Iso
 #if
 SC029::Send {Blind}{U+0060} ; `
 +SC029::Send {Blind}{U+007e} ; ~
-^SC029::Return
 >!<^SC029::
 ; grave
 if (DeadKeys.item("grave") == "") {
@@ -230,7 +229,6 @@ Return
 #if
 SC002::Send {Blind}{U+0031} ; 1
 +SC002::Send {Blind}{U+0021} ; !
-^SC002::Return
 >!<^SC002::Send {Blind}{U+00a1} ; ¡
 +>!<^SC002::Send {Blind}{U+00b9} ; ¹
 
@@ -238,7 +236,6 @@ SC002::Send {Blind}{U+0031} ; 1
 #if
 SC003::Send {Blind}{U+0032} ; 2
 +SC003::Send {Blind}{U+0040} ; @
-^SC003::Return
 >!<^SC003::Send {Blind}{U+00b2} ; ²
 +>!<^SC003::
 ; doubleacute
@@ -258,14 +255,12 @@ Return
 #if
 SC004::Send {Blind}{U+0033} ; 3
 +SC004::Send {Blind}{U+0023} ; #
-^SC004::Return
 >!<^SC004::Send {Blind}{U+00b3} ; ³
 
 ; QWERTY 4
 #if
 SC005::Send {Blind}{U+0034} ; 4
 +SC005::Send {Blind}{U+0024} ; $
-^SC005::Return
 >!<^SC005::Send {Blind}{U+00a3} ; £
 +>!<^SC005::
 ; currency
@@ -327,7 +322,6 @@ Return
 #if
 SC006::Send {Blind}{U+0035} ; 5
 +SC006::Send {Blind}{U+0025} ; %
-^SC006::Return
 >!<^SC006::Send {Blind}{U+20ac} ; €
 +>!<^SC006::
 ; caron
@@ -378,7 +372,6 @@ Return
 #if
 SC007::Send {Blind}{U+0036} ; 6
 +SC007::Send {Blind}{U+005e} ; ^
-^SC007::Return
 >!<^SC007::Send {Blind}{U+00bc} ; ¼
 +>!<^SC007::
 ; circumflex
@@ -420,7 +413,6 @@ Return
 #if
 SC008::Send {Blind}{U+0037} ; 7
 +SC008::Send {Blind}{U+0026} ; &
-^SC008::Return
 >!<^SC008::Send {Blind}{U+00bd} ; ½
 +>!<^SC008::
 ; cedilla
@@ -458,7 +450,6 @@ Return
 #if
 SC009::Send {Blind}{U+0038} ; 8
 +SC009::Send {Blind}{U+002a} ; *
-^SC009::Return
 >!<^SC009::Send {Blind}{U+00be} ; ¾
 +>!<^SC009::
 ; ogonek
@@ -484,7 +475,6 @@ Return
 #if
 SC00a::Send {Blind}{U+0039} ; 9
 +SC00a::Send {Blind}{U+0028} ; (
-^SC00a::Return
 >!<^SC00a::Send {Blind}{U+2018} ; ‘
 +>!<^SC00a::
 ; breve
@@ -512,7 +502,6 @@ Return
 #if
 SC00b::Send {Blind}{U+0030} ; 0
 +SC00b::Send {Blind}{U+0029} ; )
-^SC00b::Return
 >!<^SC00b::Send {Blind}{U+2019} ; ’
 +>!<^SC00b::
 ; overring
@@ -534,7 +523,6 @@ Return
 #if
 SC00c::Send {Blind}{U+002d} ; -
 +SC00c::Send {Blind}{U+005f} ; _
-^SC00c::Return
 >!<^SC00c::Send {Blind}{U+00a5} ; ¥
 +>!<^SC00c::
 ; macron
@@ -569,7 +557,6 @@ Return
 #if
 SC00d::Send {Blind}{U+003d} ; =
 +SC00d::Send {Blind}{U+002b} ; +
-^SC00d::Return
 >!<^SC00d::Send {Blind}{U+00d7} ; ×
 +>!<^SC00d::Send {Blind}{U+00f7} ; ÷
 
@@ -589,7 +576,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0071} ; q
 }
 Return
-^SC010::Return
 >!<^SC010::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00e4} ; ä
@@ -621,7 +607,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0077} ; w
 }
 Return
-^SC011::Return
 >!<^SC011::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00e5} ; å
@@ -653,7 +638,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0065} ; e
 }
 Return
-^SC012::Return
 >!<^SC012::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00e9} ; é
@@ -685,7 +669,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0072} ; r
 }
 Return
-^SC013::Return
 >!<^SC013::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00ae} ; ®
@@ -717,7 +700,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0074} ; t
 }
 Return
-^SC014::Return
 >!<^SC014::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00fe} ; þ
@@ -749,7 +731,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0079} ; y
 }
 Return
-^SC015::Return
 >!<^SC015::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00fc} ; ü
@@ -781,7 +762,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0075} ; u
 }
 Return
-^SC016::Return
 >!<^SC016::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00fa} ; ú
@@ -813,7 +793,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0069} ; i
 }
 Return
-^SC017::Return
 >!<^SC017::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00ed} ; í
@@ -845,7 +824,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+006f} ; o
 }
 Return
-^SC018::Return
 >!<^SC018::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00f3} ; ó
@@ -877,7 +855,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0070} ; p
 }
 Return
-^SC019::Return
 >!<^SC019::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00f8} ; ø
@@ -897,7 +874,6 @@ Return
 #if
 SC01a::Send {Blind}{U+005b} ; [
 +SC01a::Send {Blind}{U+007b} ; {
-^SC01a::Send {Blind}{U+001b} ; 
 >!<^SC01a::Send {Blind}{U+00ab} ; «
 +>!<^SC01a::Send {Blind}{U+201c} ; “
 
@@ -905,7 +881,6 @@ SC01a::Send {Blind}{U+005b} ; [
 #if
 SC01b::Send {Blind}{U+005d} ; ]
 +SC01b::Send {Blind}{U+007d} ; }
-^SC01b::Send {Blind}{U+001d} ; 
 >!<^SC01b::Send {Blind}{U+00bb} ; »
 +>!<^SC01b::Send {Blind}{U+201d} ; ”
 
@@ -913,7 +888,6 @@ SC01b::Send {Blind}{U+005d} ; ]
 #if
 SC02b::Send {Blind}{U+005c} ; \
 +SC02b::Send {Blind}{U+007c} ; |
-^SC02b::Send {Blind}{U+001c} ; 
 >!<^SC02b::Send {Blind}{U+00ac} ; ¬
 +>!<^SC02b::Send {Blind}{U+00a6} ; ¦
 
@@ -933,7 +907,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0061} ; a
 }
 Return
-^SC01e::Return
 >!<^SC01e::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00e1} ; á
@@ -965,7 +938,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0073} ; s
 }
 Return
-^SC01f::Return
 >!<^SC01f::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00df} ; ß
@@ -997,7 +969,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0064} ; d
 }
 Return
-^SC020::Return
 >!<^SC020::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00f0} ; ð
@@ -1097,7 +1068,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+006b} ; k
 }
 Return
-^SC025::Return
 >!<^SC025::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0153} ; œ
@@ -1129,7 +1099,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+006c} ; l
 }
 Return
-^SC026::Return
 >!<^SC026::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0142} ; ł
@@ -1149,7 +1118,6 @@ Return
 #if
 SC027::Send {Blind}{U+003b} ; ;
 +SC027::Send {Blind}{U+003a} ; :
-^SC027::Return
 >!<^SC027::Send {Blind}{U+00b6} ; ¶
 +>!<^SC027::Send {Blind}{U+00b0} ; °
 
@@ -1157,7 +1125,6 @@ SC027::Send {Blind}{U+003b} ; ;
 #if
 SC028::Send {Blind}{U+0027} ; '
 +SC028::Send {Blind}{U+0022} ; "
-^SC028::Return
 >!<^SC028::
 ; acute
 if (DeadKeys.item("acute") == "") {
@@ -1250,7 +1217,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+007a} ; z
 }
 Return
-^SC02c::Return
 >!<^SC02c::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00e6} ; æ
@@ -1299,7 +1265,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+0063} ; c
 }
 Return
-^SC02e::Return
 >!<^SC02e::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00a9} ; ©
@@ -1365,7 +1330,6 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+006e} ; n
 }
 Return
-^SC031::Return
 >!<^SC031::
 if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+00f1} ; ñ
@@ -1397,14 +1361,12 @@ if not GetKeyState("CapsLock", "T") {
   Send {Blind}{U+006d} ; m
 }
 Return
-^SC032::Return
 >!<^SC032::Send {Blind}{U+00b5} ; µ
 
 ; QWERTY ,
 #if
 SC033::Send {Blind}{U+002c} ; ,
 +SC033::Send {Blind}{U+003c} ; <
-^SC033::Return
 >!<^SC033::Send {Blind}{U+00e7} ; ç
 +>!<^SC033::Send {Blind}{U+00c7} ; Ç
 
@@ -1412,7 +1374,6 @@ SC033::Send {Blind}{U+002c} ; ,
 #if
 SC034::Send {Blind}{U+002e} ; .
 +SC034::Send {Blind}{U+003e} ; >
-^SC034::Return
 >!<^SC034::
 ; underdot
 if (DeadKeys.item("underdot") == "") {
@@ -1516,7 +1477,6 @@ Return
 #if
 SC035::Send {Blind}{U+002f} ; /
 +SC035::Send {Blind}{U+003f} ; ?
-^SC035::Return
 >!<^SC035::Send {Blind}{U+00bf} ; ¿
 +>!<^SC035::
 ; solidus
@@ -1580,6 +1540,5 @@ Return
 #if
 SC039::Send {Blind}{U+0020} ;  
 +SC039::Send {Blind}{U+0020} ;  
-^SC039::Send {Blind}{U+0020} ;  
 >!<^SC039::Send {Blind}{U+00a0} ;  
 +>!<^SC039::Send {Blind}{U+200b} ; ​
