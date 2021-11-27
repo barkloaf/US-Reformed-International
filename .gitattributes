@@ -1,5 +1,5 @@
 us-refor.json linguist-language=JSON
-keylayout/usrefor.keylayout linguist-language=XML
+keylayout/us-refor.keylayout linguist-language=XML
 klc/us-refor.klc linguist-language=Text
 pkl/pkl.ini linguist-language=INI
 pkl/layouts/us-refor linguist-language=INI
@@ -8,7 +8,7 @@ xkb/symbols/us-refor linguist-language=C
 xkb/types/us-refor linguist-language=C
 
 us-refor.json linguist-detectable
-keylayout/usrefor.keylayout linguist-detectable
+keylayout/us-refor.keylayout linguist-detectable
 klc/us-refor.klc linguist-detectable
 pkl/pkl.ini linguist-detectable
 pkl/layouts/us-refor linguist-detectable
