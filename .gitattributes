@@ -6,3 +6,12 @@ pkl/layouts/us-refor linguist-language=INI
 xkb/XCompose linguist-language=XCompose
 xkb/symbols/us-refor linguist-language=C
 xkb/types/us-refor linguist-language=C
+
+us-refor.json linguist-detectable
+keylayout/usrefor.keylayout linguist-detectable
+klc/us-refor.klc linguist-detectable
+pkl/pkl.ini linguist-detectable
+pkl/layouts/us-refor linguist-detectable
+xkb/XCompose linguist-detectable
+xkb/symbols/us-refor linguist-detectable
+xkb/types/us-refor linguist-detectable

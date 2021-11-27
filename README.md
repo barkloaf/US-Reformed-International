@@ -22,11 +22,11 @@
   - [Credits](#credits)
 
 ## The Problem
-I originally made this layout because included Windows keyboard layout for United States (International) is subpar. Here is a list of things the Windows US-International layout does not have that are usually included in layouts such as the one included on Linux:
+I originally made this layout because included Windows keyboard layout for United States (International) is subpar. Here is a list of things the Windows US-International layout does not have that are usually included in layouts such as the one included in X on Linux:
 * The `œ` ligature
 * Left and right facing quotation marks `“` `”`
 * The breve, caron, double acute, ogonek, macron, overdot, underdot, and overring diacritical marks
-* The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` must be followed by a space
+* The lack of the option for dead keys activated by `AltGr`, which means that single symbols that are also used as diacritical marks such as the `'` must be typed with a following `Space`
 
 There was a very noble attempt to fix this madness by fellow GitHub user [thomasfaingnaert](https://github.com/thomasfaingnaert/win-us-intl-altgr). However, it only addresses the last problem, does not contain a copyleft-friendly license, and does not map a large number of precomposed letters with diacritics in Unicode.
 
@@ -34,7 +34,7 @@ But upon looking at the way US-International tends to be done, I realized some o
 ### Therefore, I decided to reform the entire layout. And due to the changes I made, I also decided to make this layout cross-platform!
 
 ## The Standard
-This is the way that US-International is usually done in Linux and such, and will be compared against below:
+This is the way that US-International is usually done in the Linux sphere and such, and will be compared against below:
 ![US-International](https://wildcard.yiff.church/i/im1h033s.png)
 ## The Reform
 ![US-Reformed-International](https://wildcard.yiff.church/i/1lksz7b8.png)
@@ -109,10 +109,19 @@ Here is a (imperfect) list of languages and dialects using the Latin alphabet. T
 ## Windows
 Pick **one** (1) of the install methods below
 ### KLC (**Recommended**, no 3rd party software required)
-  Download the latest `klc.zip` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe` from the folder.
+  **United States**: Download the latest `klc.zip` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe` from the resulting folder.
   To apply the layout, go to Windows settings > `Time & Language` > `Language` > `English (United States)` > `Options` > `Add a keyboard` > `United States (Reformed International)`
 
-  Alternatively, you may download the source code file `klc/us-refor.klc` and open it in [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339). An installer is created by going to `Project`>`Build DLL and Setup Package`. Run `Setup.exe` from the resulting folder.
+  **Netherlands:** If you wish to install the layout to the `nl-NL` locale, download the latest `klc-nl.zip` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `Setup.exe` from the resulting folder. To apply the layout, go to Windows settings > `Tijd en Taal` > `Taal` > `Nederlands (Nederland)` > `Opties` > `Een toetsenbord toevoegen` > `Verenigde Staten (gewijzigd internationaal)`
+
+  **Other locales:** `klc.zip` installs to the `en-US` locale. If you wish to install the layout to a different locale:
+  1. Download the source code file [`klc/us-refor.klc`](https://github.com/barkloaf/US-Reformed-International/blob/master/klc/us-refor.klc)
+  2. Open the file you just modified in [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+  3. Edit the language in `Project` > `Properties...` > `Language`
+     * **Note:** MSKLC will not compile the layout if it shares a name with an existing keyboard on your system. The name of the layout can also be changed in this menu if necessary. 
+  4. Create the installer by going to `Project` > `Build DLL and Setup Package`
+  5. Run `Setup.exe` from the resulting folder.
+  6. Apply the layout in Windows settings > `Time & Language` > `Language` > (Language name) > `Options` > `Add a keyboard` > `United States (Reformed International)`
 
 ### AutoHotkey
   Presuming [AutoHotkey](https://www.autohotkey.com) is installed, download the latest `ahk.zip` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `us-refor.ahk` from the folder.
