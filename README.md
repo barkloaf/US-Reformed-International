@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wildcard.yiff.church/i/1lksz7b8.png" />
+  <img src="./us-intl.png" />
 </p>
 
 # <p align="center">United States (Reformed International)</p>
@@ -35,9 +35,10 @@ But upon looking at the way US-International tends to be done, I realized some o
 
 ## The Standard
 This is the way that US-International is usually done in the Linux sphere and such, and will be compared against below:
-![US-International](https://wildcard.yiff.church/i/im1h033s.png)
+
+![US-International](./us-intl.png)
 ## The Reform
-![US-Reformed-International](https://wildcard.yiff.church/i/1lksz7b8.png)
+![US-Reformed-International](./us-intl.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
@@ -116,7 +117,7 @@ Pick **one** (1) of the install methods below
 
   **Other locales:** `klc.zip` installs to the `en-US` locale. If you wish to install the layout to a different locale:
   1. Download the source code file [`klc/us-refor.klc`](https://github.com/barkloaf/US-Reformed-International/blob/master/klc/us-refor.klc)
-  2. Open the file you just modified in [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+  2. Open the source code file [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
   3. Edit the language in `Project` > `Properties...` > `Language`
      * **Note:** MSKLC will not compile the layout if it shares a name with an existing keyboard on your system. The name of the layout can also be changed in this menu if necessary. 
   4. Create the installer by going to `Project` > `Build DLL and Setup Package`
@@ -141,7 +142,7 @@ Pick **one** (1) of the install methods below
 
 ## Linux
 ### XKB
-  Download the latest `xkb.tar.gz` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `install-system.sh` as root followed by `scripts/install-user.sh` as user from the folder.
+  Download the latest `xkb.tar.gz` from [the releases tab of this repo](https://github.com/barkloaf/US-Reformed-International/releases). Extract it and run `install-system.sh` as root followed by `scripts/install-user.sh` as user from the folder. The layout might need to be enabled first in order to be used. This may vary per distribution.
 
 # Credits
   The auto-generated files and scripts in this repo were created by [`klfc`](https://github.com/39aldo39/klfc)!
