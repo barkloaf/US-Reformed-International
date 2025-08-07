@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./us-intl.png" />
+  <img src="./us-refor.png" />
 </p>
 
 # <p align="center">United States (Reformed International)</p>
@@ -38,7 +38,7 @@ This is the way that US-International is usually done in the Linux sphere and su
 
 ![US-International](./us-intl.png)
 ## The Reform
-![US-Reformed-International](./us-intl.png)
+![US-Reformed-International](./us-refor.png)
 
 This is my keyboard layout that aims to fix the problems with given US-International implementations. Here is a list of the changes with their justifications:
 * `ł` and `Ł` replace `ø` and `Ø` at `AltGr`+`l` and `AltGr`+`Shift`+`l` respectively.
